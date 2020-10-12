@@ -1,0 +1,152 @@
+
+ * {
+ box-sizing: border-box;
+ }
+ body {
+ margin: 0;
+ background-color: #141414; 
+ }
+ 
+ .arriba{
+ 	width: 100%;
+
+   display: flex; 
+   justify-content:space-between;
+
+	background-color: #141414; 
+}
+.arriba-i{
+  
+
+   display: flex; 
+   
+   justify-content:flex-start;
+
+	background-color: #141414; 
+}
+.arriba-d{
+	width: 30%;
+
+   display: flex; 
+   
+   justify-content:flex-end;
+
+	background-color: #141414; 
+}
+.btn-desc{
+	display:flex;
+	justify-content:flex-start;
+
+}
+.titulo{
+	
+	padding: 15px 25px;
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size:14px; 
+	font-weight: bold;
+background-color: rgba(200,0,0,50%);
+text-align: center;
+padding-top: 5px;
+}
+.btn-2{
+width: 100px;
+height: 30px;
+border-radius: 5px;
+color: white;
+font-size:14px; 
+font-weight: bold;
+background-color: rgba(100,100,100,50%);
+text-align: center;
+padding-top: 5px;
+}
+
+
+ .video-container {
+ position: relative;
+ width: 101%;
+ height: 120vh;
+ background-color: red;
+ z-index: -1;
+ }
+ .video {
+
+ bottom: 0;
+ position: 10px;
+ min-width: 100%;
+ min-height: 100%;
+ }
+ .icono_lupa{
+ 	width:20px;
+ 	height:20px;
+
+ }
+ .video-description {
+
+ color: white;
+ position: absolute;
+ left: 10px;
+ bottom: 50%;
+ width: 50%;
+ padding: 30px 20px 30px;
+ text-shadow: -2px 2px 2px #002050;
+ }
+ .video-description  h1{
+ font-size: 100px;
+ }
+ .content-series {
+ display: flex;
+ justify-content: space-around;
+ margin-top:-50px;
+ }
+ .series {
+ width: 250px;
+ height: 150px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ }
+ .series:nth-child(odd) {
+ background-color: red;
+ }
+ .series:nth-child(even) {
+ background-color: blue;
+ }
+ .poster{
+ 	width: 250px; 
+ 	height: 250px; 
+ }
+ div ul{
+	list-style: none;
+
+text-align: center;	
+}
+ div li{
+	display: inline-block;
+}
+
+ div li a{
+	display: block;
+	padding: 15px 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+}
+ div li a:hover{
+background: red;
+color: black;
+transition: 0.2s all linear;
+border-radius: 8px
+}

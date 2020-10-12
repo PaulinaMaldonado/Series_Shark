@@ -1,0 +1,26 @@
+#video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+div[class^='caja']{
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	top: 6px;
+	right: 6px;
+}
+
+.caja1{
+	background-color: red;
+	position: absolute;
+}
+.caja2{
+	background-color: blue;
+	position: fixed;
+}
+.caja3{
+	position: relative;
+}
